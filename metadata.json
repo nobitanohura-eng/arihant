@@ -1,0 +1,7 @@
+{
+  "name": "Arihant Cabs - Premium Fleet Booking",
+  "description": "A professional cab booking platform for a limited fleet of premium vehicles with real-time availability, admin dashboard, and UPI payment integration.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
