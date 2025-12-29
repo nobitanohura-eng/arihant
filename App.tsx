@@ -78,7 +78,20 @@ const App: React.FC = () => {
             </div>
             
             <div className="mt-24 pt-12 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-6 text-xs font-black uppercase tracking-widest text-slate-400">
-              <p>© 2025 Arihant Cabs - Pawan Kumar Dubey. All Rights Reserved.</p>
+            <div className="flex flex-col items-center md:items-start gap-2">
+  <p>© 2025 Arihant Cabs - Pawan Kumar Dubey. All Rights Reserved.</p>
+  <p className="text-[10px] font-bold tracking-widest text-slate-400">
+  Built with <span className="text-red-500">♥</span> by{" "}
+  <a
+    href="https://www.instagram.com/iamavi_89"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-slate-600 hover:text-amber-500 transition-colors"
+  >
+    Avinash Kumar
+  </a>
+</p>
+</div>
               <div className="flex gap-10">
                 <Link to="/admin" className="hover:text-amber-600 transition-colors flex items-center gap-2">
                   <User size={14} /> ADMIN ACCESS
