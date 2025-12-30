@@ -56,6 +56,9 @@ const Home: React.FC = () => {
         
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full pt-20">
           <div className="max-w-4xl space-y-8">
+            <h1 className="sr-only">
+  Taxi Service & Car Rental in Giridih – Arihant Cabs
+</h1>
             <motion.div 
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
@@ -64,6 +67,7 @@ const Home: React.FC = () => {
               <Sparkles size={14} className="text-amber-500" />
               <span className="text-[10px] font-black uppercase tracking-[0.2em]">Giridih's Leading Fleet</span>
             </motion.div>
+            
 
             <motion.h1 
               initial={{ opacity: 0, y: 30 }}
